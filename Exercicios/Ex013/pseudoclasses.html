@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <link rel="shortcut icon" href="imagens/novaera.ico" type="image/x-icon">    
+    <link rel="stylesheet" href="style.css">
+    <style>    
+
+        /*  Seletores Personalizados
+            #  = ID
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+        div:hover{
+           color: red;
+        }
+        
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: red;
+            color: white;
+            width: 90px;
+        }
+        body{
+            color: white;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(180, 22, 22);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: white;
+            content: '⇒';
+        }
+        a::before{
+            content: '♣  ';
+        }
+        a::after {
+            content: '  ♣';
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hoves</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto Escondido</p>
+    </div>
+
+
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCkzRopQBtWEt20aiHVu0uVQ" target="_blank">Canal do Youtube</a></li>
+
+        <li><a href="https://thelastlord.com.br/#/membro/4" target="_blank">Site do TLL</a></li>
+
+        <li><a href="https://www.instagram.com/gustavo_icyninja/" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>

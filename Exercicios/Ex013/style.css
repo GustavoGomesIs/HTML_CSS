@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:Bebas;
+    src: url(fontes/BebasNeue-Regular.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+main {font-family: 'Bebas';}
+div {font-family: 'Bebas';}
+body {font-family: 'Bebas';}
+
+p {
+    text-align: justify;
+    color: rgb(221, 220, 220);
+}
+
+
+body{background-image: linear-gradient(to left, #1d1c1c, #1d1c1c);
+font-size: 15px;
+}
+
+/*main{
+    background-color: rgb(61, 2, 2);
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #012225d5;
+    padding: 10px;
+    margin: auto;
+}*/
+
+h1{
+    color: rgb(221, 220, 220);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(61, 2, 2);
+    color: white;
+}
+
+h2{
+    color: rgb(221, 220, 220);
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destacado {
+    background-color: lawngreen;
+}
+

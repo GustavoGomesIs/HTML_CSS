@@ -1,0 +1,9 @@
+O HTML é focado em conteudo!
+Ex: Texto, Imagem, Video, Audio, Tabela, Listas
+Tudo que tem foco em contaudo!
+
+Css: foco no designe!
+
+
+JS: interações
+Menus, Animações

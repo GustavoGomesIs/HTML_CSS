@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Caixas</title>
+    <link rel="shortcut icon" href="imagens/tll.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        div:hover{
+            color: red;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: red;
+            color: white;
+            width: 90px;
+        }
+
+        h1 {
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            */
+            
+
+            /*
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            */        
+
+            padding: 10px 10px 10px 10px;
+            border: 3px solid red;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+
+        a{
+            padding: 10px 10px 10px 10px;            
+            border: red;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa box-level</h1>
+    <p>Parágrafos também são exemplos de Box-Level, mas os <a href="#">Links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+
+    <div>
+        Configurações
+        <p>Opções</p>
+    </div>
+</body>
+</html>
