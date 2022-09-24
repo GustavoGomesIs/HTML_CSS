@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center top;
             background-size: cover;
-            
+            background-attachment: fixed;*/
+
+            /* ShortHands - Background 
+                color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
+            background-size: cover;
         }
-/* background-size: contain; pode ser usado em modo filme, tipo youtube com as barras pretas!*/
+/* background-size: contain; pode ser usado em modo filme, tipo youtube com as barras pretas!
+o background-size: cover; é usado pra se ajutas toda a imagem na tela */
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,7 +36,7 @@
 <body>
     <main>
         <h1>Teste de imagens de fundo</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum consequuntur velit, odio hic ipsum quo eligendi minima accusantium obcaecati aliquid molestias incidunt fugit quos autem totam rem optio assumenda! Inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto eligendi ipsum quos ad ducimus inventore incidunt repellendus, ab voluptates animi in, iste obcaecati quae? Nostrum corrupti nam sapiente a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eos, iste delectus unde libero iusto quis recusandae reiciendis rerum facere veritatis perferendis magni omnis cupiditate minus maiores blanditiis? Pariatur, enim.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum consequuntur velit, odio hic ipsum quo eligendi minima accusantium obcaecati aliquid molestias incidunt fugit quos autem totam rem optio assumenda! Inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto eligendi ipsum quos ad ducimus inventore incidunt repellendus, ab voluptates animi in, iste obcaecati quae? Nostrum corrupti nam sapiente a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eos, iste delectus unde libero iusto quis recusandae reiciendis rerum facere veritatis perferendis magni omnis cupiditate minus maiores blanditiis? Pariatur, enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas vitae maiores quis aut et! Repellat soluta amet reiciendis doloremque, sunt exercitationem, ut animi eaque nulla porro officiis maxime laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora qui eius repellendus quis odit error quaerat recusandae quas debitis adipisci molestias dolorem ea, cupiditate inventore modi delectus harum ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nulla inventore non. Dicta accusantium voluptatum temporibus ut ea magnam minus mollitia nihil voluptate amet, neque culpa eaque at assumenda quasi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto fuga, repudiandae soluta voluptates hic in nostrum eum atque ullam amet optio ipsa totam. Dolorem vel voluptatibus necessitatibus veritatis optio ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quas quibusdam accusamus sint similique sed? Harum, beatae eum. Autem eveniet voluptatibus corporis qui soluta ratione, quidem eaque rerum dignissimos a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos, ipsam suscipit labore numquam mollitia recusandae illo distinctio rerum asperiores. Explicabo optio, voluptatum molestiae sequi officia rerum ad repellendus cumque?</p>
     </main>
 </body>
 </html>
