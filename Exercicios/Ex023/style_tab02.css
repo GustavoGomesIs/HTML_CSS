@@ -21,6 +21,10 @@
             text-decoration: underline;
         }
 
+        .num {
+            text-align: right;
+        }
+
         table {
             border-collapse: collapse;
             margin: auto;
@@ -39,7 +43,7 @@
             background-color: white;
         }
 
-        td.pais {
+        .pais {
             text-align: left;
         }
         .porce {
