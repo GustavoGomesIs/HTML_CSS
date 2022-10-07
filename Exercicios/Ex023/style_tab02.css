@@ -8,6 +8,19 @@
             font-family: 'Roboto Mono', monospace;
             text-align: center;
         }
+
+        img {
+            margin: 0px 4px 0px 4px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         table {
             border-collapse: collapse;
             margin: auto;
@@ -26,6 +39,9 @@
             background-color: white;
         }
 
+        td.pais {
+            text-align: left;
+        }
         .porce {
             color: green;
         }
@@ -33,14 +49,6 @@
         td {
             border: 1px solid black;
             padding: 5px 10px 5px 10px;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
 
         tfoot {
