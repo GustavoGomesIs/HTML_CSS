@@ -28,19 +28,38 @@
         table {
             border-collapse: collapse;
             margin: auto;
+            position: relative;
+        }
+
+        caption {
+            background-color: gray;
+            border: 1px solid black;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
         }
 
         thead {
             font-weight: bold;
         }
         thead > tr > td{
-            background-color: #EAECF0;
+            color: white;
+            background-color: #383838;
             padding-top: 12px;
             padding-bottom: 12px;
         }
 
+        thead > tr > td {
+            position: sticky;
+            top: -1px;
+        }
+
         tbody > tr {
             background-color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
         }
 
         .pais {
@@ -56,6 +75,6 @@
         }
 
         tfoot {
-            background-color: #EAECF0;
+            background-color: #383838;
             width: 0px;
         }
