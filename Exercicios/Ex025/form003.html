@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(71, 71, 71);
+            color: whitesmoke;
+        }
+    </style>
     <title>Formulario</title>
 </head>
 <body>
     <h1>Testes Form</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <label for="inome">Nome</label>
-        <input type="text" name="nome" id="inome" required placeholder="Nome completo" autocomplete="additional-name"> <br>
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome" autocomplete="additional-name"> 
 
-        <label for="isenha">Senha</label>
-        <input type="password" name="senha" id="isenha" required minlength="6" placeholder="Senha">
+            <label for="isobre">Sobrenome</label>
+            <input type="text" name="sobrenome" id="isobre" required placeholder="Sobrenome"><br>
 
-        <input type="submit" value="Enviar">
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" required minlength="6" placeholder="Senha"> <br>
+
+            <label for="inum">Média</label>
+            <input type="number" name="num" id="inum" min="0" max="10" required placeholder="Média" step="0.5">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
     </form>
 </body>
 </html>
